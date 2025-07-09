@@ -189,7 +189,7 @@ export default function QuestionsDSCGPage() {
             <div>
               <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg mb-8">
                 <p className="text-purple-700">
-                  Ces exercices reproduisent le format et le niveau d'exigence des questions DSCG. 
+                  Ces exercices reproduisent le format et le niveau d&apos;exigence des questions DSCG. 
                   Chaque cas pratique inclut une méthodologie et des conseils pour optimiser votre préparation.
                 </p>
               </div>

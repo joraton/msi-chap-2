@@ -8,10 +8,10 @@ export default function Section3Page() {
   const structures = [
     {
       title: "Structure centralisée",
-      description: "Toutes les ressources SI sont regroupées au sein d'une direction unique",
+      description: "Toutes les ressources SI sont regroupées au sein d&apos;une direction unique",
       avantages: [
         "Cohérence des choix technologiques",
-        "Économies d'échelle",
+        "Économies d&apos;échelle",
         "Expertise technique concentrée",
         "Contrôle unifié des coûts"
       ],
@@ -33,9 +33,9 @@ export default function Section3Page() {
         "Autonomie des divisions"
       ],
       inconvenients: [
-        "Risque d'hétérogénéité",
+        "Risque d&apos;hétérogénéité",
         "Coûts plus élevés",
-        "Difficultés d'intégration"
+        "Difficultés d&apos;intégration"
       ],
       color: "green",
       icon: GitBranch
@@ -61,8 +61,8 @@ export default function Section3Page() {
 
   const roles = [
     {
-      title: "DSI (Directeur des Systèmes d'Information)",
-      description: "Responsable de la stratégie SI et de l'alignement avec les objectifs business",
+      title: "DSI (Directeur des Systèmes d&apos;Information)",
+    description: "Responsable de la stratégie SI et de l&apos;alignement avec les objectifs business",
       missions: [
         "Définition de la stratégie SI",
         "Pilotage de la transformation digitale",
@@ -73,7 +73,7 @@ export default function Section3Page() {
     },
     {
       title: "Responsable Infrastructure",
-      description: "En charge de la gestion et de l'évolution des infrastructures techniques",
+      description: "En charge de la gestion et de l&apos;évolution des infrastructures techniques",
       missions: [
         "Gestion des serveurs et réseaux",
         "Sécurité des systèmes",
@@ -84,7 +84,7 @@ export default function Section3Page() {
     },
     {
       title: "Chef de Projet SI",
-      description: "Pilote les projets de développement et d'évolution du SI",
+      description: "Pilote les projets de développement et d&apos;évolution du SI",
       missions: [
         "Planification des projets",
         "Coordination des équipes",
@@ -155,8 +155,8 @@ export default function Section3Page() {
           {/* Introduction */}
           <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-r-lg mb-8">
             <p className="text-orange-700">
-              L'organisation de la fonction SI dépend de nombreux facteurs : taille de l'entreprise, 
-              secteur d'activité, culture organisationnelle et stratégie digitale.
+              L&apos;organisation de la fonction SI dépend de nombreux facteurs : taille de l&apos;entreprise,
+        secteur d&apos;activité, culture organisationnelle et stratégie digitale.
             </p>
           </div>
 
@@ -215,15 +215,15 @@ export default function Section3Page() {
           {/* Facteurs de choix */}
           <h2 className="text-2xl font-semibold text-gray-800 mb-6 flex items-center gap-2">
             <Zap className="text-yellow-600" size={24} />
-            Facteurs de choix d'organisation
+            Facteurs de choix d&apos;organisation
           </h2>
           
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-blue-50 p-6 rounded-lg border border-blue-200">
               <h3 className="text-lg font-semibold text-blue-800 mb-3">📊 Facteurs internes</h3>
               <ul className="text-blue-700 space-y-2 text-sm">
-                <li>• Taille et complexité de l'organisation</li>
-                <li>• Culture d'entreprise</li>
+                <li>• Taille et complexité de l&apos;organisation</li>
+                <li>• Culture d&apos;entreprise</li>
                 <li>• Maturité SI existante</li>
                 <li>• Ressources disponibles</li>
                 <li>• Stratégie de croissance</li>
@@ -233,7 +233,7 @@ export default function Section3Page() {
             <div className="bg-green-50 p-6 rounded-lg border border-green-200">
               <h3 className="text-lg font-semibold text-green-800 mb-3">🌍 Facteurs externes</h3>
               <ul className="text-green-700 space-y-2 text-sm">
-                <li>• Secteur d'activité</li>
+                <li>• Secteur d&apos;activité</li>
                 <li>• Réglementation</li>
                 <li>• Concurrence</li>
                 <li>• Évolutions technologiques</li>
@@ -283,7 +283,7 @@ export default function Section3Page() {
                 <ul className="text-purple-600 space-y-1 text-sm">
                   <li>• Organisations agiles et DevOps</li>
                   <li>• Équipes produit cross-fonctionnelles</li>
-                  <li>• Centre d'excellence (CoE)</li>
+                  <li>• Centre d&apos;excellence (CoE)</li>
                   <li>• Modèle bimodal (run/build)</li>
                 </ul>
               </div>
@@ -325,11 +325,11 @@ export default function Section3Page() {
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
             <h3 className="text-lg font-semibold text-yellow-800 mb-4">💡 Points clés à retenir</h3>
             <ul className="text-yellow-700 space-y-2">
-              <li>• Trois types d'organisation : Centralisée, Décentralisée, Hybride (C.D.H)</li>
+              <li>• Trois types d&apos;organisation : Centralisée, Décentralisée, Hybride (C.D.H)</li>
               <li>• Le choix dépend de facteurs internes et externes</li>
               <li>• Évolution vers des organisations plus agiles</li>
               <li>• Nouveaux rôles liés à la transformation digitale</li>
-              <li>• Importance de l'alignement avec la stratégie business</li>
+              <li>• Importance de l&apos;alignement avec la stratégie business</li>
             </ul>
           </div>
         </motion.div>

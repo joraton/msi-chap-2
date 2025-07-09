@@ -92,13 +92,13 @@ export default function SectionBlock({
             
             {/* Button */}
             <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className={`${currentColor.bg} ${currentColor.hover} text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2`}
-            >
-              Commencer
-              <ChevronRight size={16} />
-            </motion.button>
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                className={`${currentColor.bg} ${currentColor.hover} text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2`}
+              >
+                Commencer
+                <ChevronRight size={16} />
+              </motion.button>
           </div>
         </div>
       </Link>

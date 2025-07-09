@@ -14,7 +14,7 @@ export default function Section2Page() {
         "Gestion des infrastructures informatiques",
         "Maintenance et évolution des systèmes",
         "Support technique aux utilisateurs",
-        "Sécurité des systèmes d'information",
+        "Sécurité des systèmes d&apos;information",
         "Veille technologique"
       ]
     },
@@ -35,7 +35,7 @@ export default function Section2Page() {
       icon: Target,
       color: "purple",
       items: [
-        "Alignement SI/stratégie d'entreprise",
+        "Alignement SI/stratégie d&apos;entreprise",
         "Pilotage de la transformation digitale",
         "Conseil à la direction générale",
         "Définition de la stratégie SI",
@@ -114,8 +114,8 @@ export default function Section2Page() {
           {/* Introduction */}
           <div className="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg mb-8">
             <p className="text-purple-700">
-              Les missions de la fonction SI ont considérablement évolué, passant d'un rôle purement 
-              technique à un rôle stratégique d'accompagnement de la transformation digitale.
+              Les missions de la fonction SI ont considérablement évolué, passant d&apos;un rôle purement
+        technique à un rôle stratégique d&apos;accompagnement de la transformation digitale.
             </p>
           </div>
 
@@ -169,7 +169,7 @@ export default function Section2Page() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-purple-800 mb-3">🚀 Aujourd'hui : Vision stratégique</h3>
+                <h3 className="text-lg font-semibold text-purple-800 mb-3">🚀 Aujourd&apos;hui : Vision stratégique</h3>
                 <ul className="text-purple-700 space-y-1 text-sm">
                   <li>• Transformation digitale</li>
                   <li>• Innovation et prospective</li>
@@ -232,7 +232,7 @@ export default function Section2Page() {
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
             <h3 className="text-lg font-semibold text-yellow-800 mb-4">💡 Points clés à retenir</h3>
             <ul className="text-yellow-700 space-y-2">
-              <li>• Évolution d'un rôle technique vers un rôle stratégique</li>
+              <li>• Évolution d&apos;un rôle technique vers un rôle stratégique</li>
               <li>• Trois dimensions : Technique, Organisationnelle, Stratégique (T.O.S)</li>
               <li>• Nouveaux défis : sécurité, données, innovation</li>
               <li>• Accompagnement de la transformation digitale</li>

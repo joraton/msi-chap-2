@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   experimental: {
     mdxRs: true,
   },
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
 };
 
 const withMDX = createMDX({

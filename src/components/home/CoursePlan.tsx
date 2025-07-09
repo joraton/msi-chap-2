@@ -42,7 +42,7 @@ const sections = [
   },
   {
     title: "Cas pratiques",
-    description: "Exercices pratiques et cas d'application",
+    description: "Exercices pratiques et cas d&apos;application",
     icon: Award,
     href: "/questions-dscg",
     color: "red"
@@ -56,7 +56,7 @@ const sections = [
   },
   {
     title: "Exercices pratiques",
-    description: "Cas d'étude, interviews et exercices approfondis",
+    description: "Cas d&apos;étude, interviews et exercices approfondis",
     icon: Award,
     href: "/exercices-pratiques",
     color: "orange"

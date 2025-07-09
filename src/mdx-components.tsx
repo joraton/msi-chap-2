@@ -17,13 +17,22 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ul: ({ children }) => (
       <ul className="list-disc list-inside mb-4 space-y-2 text-gray-600">{children}</ul>
     ),
+    ol: ({ children }) => (
+      <ol className="list-decimal list-inside mb-4 text-gray-600">{children}</ol>
+    ),
     li: ({ children }) => (
-      <li className="ml-4">{children}</li>
+      <li className="mb-1">{children}</li>
     ),
     blockquote: ({ children }) => (
       <blockquote className="border-l-4 border-blue-500 pl-4 py-2 mb-4 bg-blue-50 rounded-r">
         {children}
       </blockquote>
+    ),
+    code: ({ children }) => (
+      <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono">{children}</code>
+    ),
+    pre: ({ children }) => (
+      <pre className="bg-gray-100 p-4 rounded-lg overflow-x-auto mb-4">{children}</pre>
     ),
     strong: ({ children }) => (
       <strong className="font-semibold text-gray-800">{children}</strong>

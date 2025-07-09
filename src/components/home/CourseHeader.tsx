@@ -35,8 +35,8 @@ export default function CourseHeader() {
                 La Fonction SI et la Gouvernance
               </h1>
               <p className="text-xl text-blue-100 mb-6 leading-relaxed">
-                Découvrez l'évolution de la fonction informatique vers les systèmes d'information, 
-                ses missions stratégiques et son rôle dans la gouvernance d'entreprise.
+                Découvrez l&apos;évolution de la fonction informatique vers les systèmes d&apos;information, 
+                ses missions stratégiques et son rôle dans la gouvernance d&apos;entreprise.
               </p>
               
               {/* Badges */}

@@ -38,9 +38,9 @@ export default function CourseNavigation({
               <Link href="/" className="hover:text-blue-600 transition-colors">
                 Accueil
               </Link>
-              <span>{'>'}</span>
+              <span>&gt;</span>
               <span>Cours</span>
-              <span>{'>'}</span>
+              <span>&gt;</span>
               <span className="text-gray-800 font-medium">{currentSection}</span>
             </nav>
           </div>
