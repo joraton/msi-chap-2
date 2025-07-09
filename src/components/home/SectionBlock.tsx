@@ -57,6 +57,12 @@ export default function SectionBlock({
       hover: 'hover:bg-indigo-600',
       border: 'border-indigo-200',
       text: 'text-indigo-600'
+    },
+    emerald: {
+      bg: 'bg-emerald-500',
+      hover: 'hover:bg-emerald-600',
+      border: 'border-emerald-200',
+      text: 'text-emerald-600'
     }
   };
 
@@ -71,20 +77,20 @@ export default function SectionBlock({
       className="group"
     >
       <Link href={href}>
-        <div className={`bg-white rounded-xl shadow-md border-2 ${currentColor.border} p-6 transition-all duration-300 hover:shadow-lg cursor-pointer`}>
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+        <div className={`bg-white rounded-xl shadow-md border-2 ${currentColor.border} p-4 sm:p-6 transition-all duration-300 hover:shadow-lg cursor-pointer`}>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 sm:gap-0">
+            <div className="flex items-center gap-3 sm:gap-4 flex-1">
               {/* Icon Circle */}
-              <div className={`${currentColor.bg} p-3 rounded-full text-white transition-colors duration-300 group-hover:${currentColor.hover}`}>
-                <Icon size={24} />
+              <div className={`${currentColor.bg} p-2.5 sm:p-3 rounded-full text-white transition-colors duration-300 group-hover:${currentColor.hover} flex-shrink-0`}>
+                <Icon size={20} className="sm:w-6 sm:h-6" />
               </div>
               
               {/* Content */}
-              <div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-1">
+              <div className="flex-1 min-w-0">
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-1 leading-tight">
                   {title}
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
                   {description}
                 </p>
               </div>
@@ -94,10 +100,10 @@ export default function SectionBlock({
             <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className={`${currentColor.bg} ${currentColor.hover} text-white px-6 py-2 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2`}
+                className={`${currentColor.bg} ${currentColor.hover} text-white px-4 sm:px-6 py-2 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2 text-sm sm:text-base w-full sm:w-auto justify-center sm:justify-start flex-shrink-0`}
               >
                 Commencer
-                <ChevronRight size={16} />
+                <ChevronRight size={14} className="sm:w-4 sm:h-4" />
               </motion.button>
           </div>
         </div>

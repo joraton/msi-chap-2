@@ -65,28 +65,28 @@ const sections = [
 
 export default function CoursePlan() {
   return (
-    <div className="container mx-auto px-6 py-16">
+    <div className="container mx-auto px-4 sm:px-6 py-12 sm:py-16">
       {/* Section Header */}
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
-        className="text-center mb-12"
+        className="text-center mb-8 sm:mb-12"
       >
-        <div className="flex items-center justify-center gap-3 mb-4">
-          <Target className="text-blue-600" size={32} />
-          <h2 className="text-3xl font-bold text-gray-800">
+        <div className="flex items-center justify-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+          <Target className="text-blue-600" size={28} />
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">
             Plan du cours
           </h2>
         </div>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
           Explorez chaque section du cours sur la fonction SI et la gouvernance. 
           Progressez à votre rythme et maîtrisez les concepts essentiels.
         </p>
       </motion.div>
 
       {/* Sections Grid */}
-      <div className="space-y-4 max-w-4xl mx-auto">
+      <div className="space-y-3 sm:space-y-4 max-w-4xl mx-auto">
         {sections.map((section, index) => (
           <SectionBlock
             key={section.title}
@@ -105,20 +105,20 @@ export default function CoursePlan() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.8 }}
-        className="mt-16 bg-white rounded-xl shadow-lg p-8 max-w-4xl mx-auto"
+        className="mt-12 sm:mt-16 bg-white rounded-xl shadow-lg p-6 sm:p-8 max-w-4xl mx-auto"
       >
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center">
           <div>
-            <div className="text-3xl font-bold text-blue-600 mb-2">8</div>
-            <div className="text-gray-600">Sections au total</div>
+            <div className="text-2xl sm:text-3xl font-bold text-blue-600 mb-1 sm:mb-2">8</div>
+            <div className="text-sm sm:text-base text-gray-600">Sections au total</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-green-600 mb-2">4h</div>
-            <div className="text-gray-600">Durée estimée</div>
+            <div className="text-2xl sm:text-3xl font-bold text-green-600 mb-1 sm:mb-2">4h</div>
+            <div className="text-sm sm:text-base text-gray-600">Durée estimée</div>
           </div>
           <div>
-            <div className="text-3xl font-bold text-purple-600 mb-2">Expert</div>
-            <div className="text-gray-600">Niveau requis</div>
+            <div className="text-2xl sm:text-3xl font-bold text-purple-600 mb-1 sm:mb-2">Expert</div>
+            <div className="text-sm sm:text-base text-gray-600">Niveau requis</div>
           </div>
         </div>
       </motion.div>
